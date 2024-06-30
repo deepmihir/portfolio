@@ -2,275 +2,138 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" href="Assests/Images/icon.png">
+  <title>Bootstrap demo</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./Assests/Css/style.css">
+  <link rel="icon" href="Assests/Images/icon.png">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="./Assests/Css/style.css">
 
 </head>
 
 <body>
-<div class="row h-100 ">
-    <div class="col-md-6 d-flex sidebar ">
-        <div class="px-5 ml-5">
+  <div class="container-fluid">
+    <div class="container-fluid">
+      <div class="row h-100 ">
+        <div class="col-md-6 d-flex sidebar">
+          <div class="px-5 ml-5">
             <h1 class="title py-2">Bhavin Kareliya</h1>
             <p>Software Engineer // Developer</p>
             <p class="mt-4">XYZ years of experience across AI, analytics, tech, strategy and sales. I like building
-                full-stack Data
-                Science/ML products, writing stories and drinking tea.XYZ years of experience across AI, analytics,
-                tech,
-                strategy and sales. I like building
-                full-stack Data</p>
+              full-stack Data
+              Science/ML products, writing stories and drinking tea.XYZ years of experience across AI, analytics,
+              tech,
+              strategy and sales. I like building
+              full-stack Data</p>
             <div class="education my-4">
-                <h6>Marwadi University</h6>
-                <p>Bachelor of Engineering, First class distinctioin</p>
-                <h6 class="mt-4">RK University</h6>
-                <p>Diploma in Computer Engineering, First class distinctioin</p>
+              <h6>Marwadi University</h6>
+              <p>Bachelor of Engineering, First class distinctioin</p>
+              <h6 class="mt-4">RK University</h6>
+              <p>Diploma in Computer Engineering, First class distinctioin</p>
             </div>
             <div class="social-links mt-4">
-                <i class="bi bi-medium h2 mx-2"></i>
-                <i class="bi bi-substack h2 mx-2"></i>
-                <i class="bi bi-linkedin h2 mx-2"></i>
-                <i class="bi bi-github h2 mx-2"></i>
+              <i class="bi bi-medium h2 mx-2"></i>
+              <i class="bi bi-substack h2 mx-2"></i>
+              <i class="bi bi-linkedin h2 mx-2"></i>
+              <i class="bi bi-github h2 mx-2"></i>
             </div>
+          </div>
         </div>
-    </div>
-    <div class="col-md-6"></div>
-    <div class="col-md-6 mainContent">
-        <div class="px-5 py-3 ml-5">
+        <div class="col-md-6"></div>
+        <div class="col-md-6 mainContent">
+          <div class="px-5 py-3 ml-5">
             <div class="project-slider">
-                <h4>PROJECTS</h4>
-                <div class="swiper">
-                    <div class="swiper-wrapper projects mt-5 d-flex">
-                        <div class="swiper-slide card border-0">
-                            <img src="https://placehold.co/600x400" class="card-img-top rounded" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title" data-bs-toggle="modal" data-bs-target="#project1">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the
-                                    card's content.</p>
-                                <span class="tech border px-2 py-1">Test</span>
-                                <span class="tech border px-2 py-1">Test</span>
-                                <span class="tech border px-2 py-1 ">Test</span>
-                            </div>
+              <h4>PROJECTS</h4>
+              <div class="swiper">
+                <div class="projects mt-5 d-flex overflow-auto">
 
-                            <!-- Model -->
-                            <div class="modal fade" id="project1" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                 aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="project1ModalLabel">Project 1</h1>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                    aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <p>
-                                                When I was learning SQL, I found it frustrating that there weren't many
-                                                practice datasets/questions
-                                                available online. I decided to do something about this, so I built
-                                                theSQLgym, a free online platform
-                                                for learning SQL. It includes 100s of practice questions to help
-                                                learners master SQL.
-                                            </p>
-
-                                            <div class="skills">
-                                                <span class="rounded ">SQL</span>
-                                                <span class="rounded">GCP</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="swiper-slide card border-0">
-                            <img src="https://placehold.co/600x400" class="card-img-top rounded" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title" data-bs-toggle="modal" data-bs-target="#project2">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the
-                                    card's content.</p>
-                                <span class="tech border px-2 py-1">Test</span>
-                                <span class="tech border px-2 py-1">Test</span>
-                                <span class="tech border px-2 py-1 ">Test</span>
-                            </div>
-
-                            <!-- Model -->
-                            <div class="modal fade" id="project2" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                 aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="project2ModalLabel">Project 2</h1>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                    aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <p>
-                                                When I was learning SQL, I found it frustrating that there weren't many
-                                                practice datasets/questions
-                                                available online. I decided to do something about this, so I built
-                                                theSQLgym, a free online platform
-                                                for learning SQL. It includes 100s of practice questions to help
-                                                learners master SQL.
-                                            </p>
-
-                                            <div class="skills">
-                                                <span class="rounded ">SQL</span>
-                                                <span class="rounded">GCP</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide card border-0">
-                            <img src="https://placehold.co/600x400" class="card-img-top rounded" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title" data-bs-toggle="modal" data-bs-target="#project3">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the
-                                    card's content.</p>
-                                <span class="tech border px-2 py-1">Test</span>
-                                <span class="tech border px-2 py-1">Test</span>
-                                <span class="tech border px-2 py-1 ">Test</span>
-                            </div>
-
-                            <!-- Model -->
-                            <div class="modal fade" id="project3" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                 aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="project3ModalLabel">Project 3</h1>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                    aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <p>
-                                                When I was learning SQL, I found it frustrating that there weren't many
-                                                practice datasets/questions
-                                                available online. I decided to do something about this, so I built
-                                                theSQLgym, a free online platform
-                                                for learning SQL. It includes 100s of practice questions to help
-                                                learners master SQL.
-                                            </p>
-
-                                            <div class="skills">
-                                                <span class="rounded ">SQL</span>
-                                                <span class="rounded">GCP</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="swiper-slide card border-0">
-                            <img src="https://placehold.co/600x400" class="card-img-top rounded" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title" data-bs-toggle="modal" data-bs-target="#project4">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the
-                                    card's content.</p>
-                                <span class="tech border px-2 py-1">Test</span>
-                                <span class="tech border px-2 py-1">Test</span>
-                                <span class="tech border px-2 py-1 ">Test</span>
-                            </div>
-
-                            <!-- Model -->
-                            <div class="modal fade" id="project4" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                 aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="project4ModalLabel">Project 4</h1>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                    aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <p>
-                                                When I was learning SQL, I found it frustrating that there weren't many
-                                                practice datasets/questions
-                                                available online. I decided to do something about this, so I built
-                                                theSQLgym, a free online platform
-                                                for learning SQL. It includes 100s of practice questions to help
-                                                learners master SQL.
-                                            </p>
-
-                                            <div class="skills">
-                                                <span class="rounded ">SQL</span>
-                                                <span class="rounded">GCP</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
+              </div>
             </div>
             <div class="experiences my-4">
-                <h4>EXPERIENCE</h4>
-                <div class="experience my-5">
-                    <span>2022 - PRESENT</span>
-                    <h5 class="my-3">Software Engineer • Evision IT Solutions</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et
-                        dolore magna aliqua.</p>
-                    <div class="skills">
-                        <span class="rounded">SQL</span>
-                        <span class="rounded">GCP</span>
-                    </div>
+              <h4>EXPERIENCE</h4>
+              <div class="experience my-5">
+                <span>2022 - PRESENT</span>
+                <h5 class="my-3">Software Engineer • Evision IT Solutions</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                  labore et
+                  dolore magna aliqua.</p>
+                <div class="skills">
+                  <span class="rounded">SQL</span>
+                  <span class="rounded">GCP</span>
                 </div>
-                <div class="experience my-5">
-                    <span>AUG - FEB 2022</span>
-                    <h5 class="my-3">Software Engineer • Evision IT Solutions</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et
-                        dolore magna aliqua.</p>
-                    <div class="skills">
-                        <span class="rounded">SQL</span>
-                        <span class="rounded">GCP</span>
-                    </div>
+              </div>
+              <div class="experience my-5">
+                <span>AUG - FEB 2022</span>
+                <h5 class="my-3">Software Engineer • Evision IT Solutions</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                  labore et
+                  dolore magna aliqua.</p>
+                <div class="skills">
+                  <span class="rounded">SQL</span>
+                  <span class="rounded">GCP</span>
                 </div>
-                <div class="experience my-5">
-                    <span>JAN - AUG 2022</span>
-                    <h5 class="my-3">Software Engineer • Evision IT Solutions</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et
-                        dolore magna aliqua.</p>
-                    <div class="skills">
-                        <span class="rounded">SQL</span>
-                        <span class="rounded">GCP</span>
-                    </div>
+              </div>
+              <div class="experience my-5">
+                <span>JAN - AUG 2022</span>
+                <h5 class="my-3">Software Engineer • Evision IT Solutions</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                  labore et
+                  dolore magna aliqua.</p>
+                <div class="skills">
+                  <span class="rounded">SQL</span>
+                  <span class="rounded">GCP</span>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content p-5">
+          <p class="modal-subtitle font-bold text-xs mb-0 text-small text-slate-400 text-uppercase">Project</p>
+          <h5 class="modal-title project-title">Modal title</h5>
+          <div class="techs mb-3">
+            <span class="tech border px-2 py-1">Test</span>
+            <span class="tech border px-2 py-1">Test</span>
+            <span class="tech border px-2 py-1 ">Test</span>
+          </div>
+          <p class="card-text">Some quick example text to build on the card title and make up
+            the bulk of the
+            card's content.</p>
+          <div class="dialog-footer mt-4">
+            <a href="https://github.com/Bhavin-kareliya/" target="_blank" type="button" class="btn btn-dark">More
+              info</a>
+            <button type="button" class="btn mx-2 text-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-<!--  <script src="./Assests/Js/index.js"></script>-->
+    <script src="./Assests/Js/index.js"></script>
 
 </body>
 

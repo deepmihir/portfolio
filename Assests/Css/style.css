@@ -12,7 +12,6 @@ body {
 
 .education h6 {
   font-weight: 700;
-  line-height: 10px !important;
 }
 
 .skills span {
@@ -29,6 +28,16 @@ body {
   margin: auto 50px auto 50px;
 }
 
+.modal-subtitle {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.text-slate-400 {
+  --tw-text-opacity: 1;
+  color: rgb(148 163 184 / var(--tw-text-opacity));
+}
+
 .experience span {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -36,7 +45,32 @@ body {
 .experience h5 {
   font-weight: 700;
 }
+.modal .btn {
+  font-size: 14px;
+  padding: 8px 16px;
+}
+.card-title {
+  font-weight: bold;
+  cursor: pointer;
+}
 
+.modal-content .project-title {
+  font-size: 2rem;
+}
+
+.dialog-footer {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.dialog-footer btn {
+  border-radius: 20px;
+}
+
+.techs .tech {
+  font-size: 13px;
+  border-radius: 50px;
+  margin: 3px;
+}
 @media only screen and (max-width: 768px) {
   .title {
     margin-top: 20px;
@@ -66,15 +100,6 @@ body {
 
   .project-slider h4 {
     margin-top: 100px;
-  }
-
-  .projects .tech {
-    font-size: 13px;
-    border-radius: 50px;
-  }
-
-  .projects .card-title {
-    font-weight: bold;
   }
 
   .projects .card-body {
